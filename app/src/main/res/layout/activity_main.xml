@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.demotxt.droidsrce.homedashboard.Home"
+    tools:context="com.example.gavinmulvany.samplelayout.home"
     android:orientation="vertical"
     android:padding="10dp"
     android:background="#fcfcfc"
@@ -18,9 +18,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <android.support.v7.widget.CardView
+            android:id="@+id/bank_card"
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
-            android:id="@+id/bankcardId"
             android:layout_width="160dp"
             android:layout_height="190dp"
             android:layout_margin="10dp">
@@ -57,6 +57,7 @@
             </LinearLayout>
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
+            android:id="@+id/ideas_card"
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_width="160dp"
@@ -103,6 +104,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <android.support.v7.widget.CardView
+            android:id="@+id/add_card"
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_width="160dp"
@@ -141,6 +143,7 @@
             </LinearLayout>
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
+            android:id="@+id/links_card"
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_width="160dp"
@@ -192,6 +195,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <android.support.v7.widget.CardView
+            android:id="@+id/wifi_card"
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_width="340dp"
@@ -214,7 +218,7 @@
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Add"/>
+                    android:text="Wifi"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
