@@ -29,18 +29,19 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:gravity="center">
+
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/cerclebackgroundpurple"
-                    android:src="@drawable/ic_attach_money_black_24dp"
-                    android:padding="10dp"/>
+                    android:padding="10dp"
+                    android:src="@drawable/ic_forum_black_24dp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Banking"/>
+                    android:text="Forum"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -50,7 +51,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Check your bank activities"
+                    android:text="Check out what people in Swords are sayin'"
                     android:padding="5dp"
                     android:textColor="@android:color/darker_gray"/>
 
@@ -72,14 +73,14 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/cerclebackgroundpink"
-                    android:src="@drawable/ic_lightbulb_outline_black_24dp"
+                    android:src="@drawable/ic_local_bar_black_24dp"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Ideas"/>
+                    android:text="Things to Do"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -89,7 +90,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Check your bank activities"
+                    android:text="Check out what Swords has to offer"
                     android:padding="5dp"
                     android:textColor="@android:color/darker_gray"/>
 
@@ -119,14 +120,14 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/cerclebackgroundgreen"
-                    android:src="@drawable/ic_control_point_black_24dp"
+                    android:src="@drawable/ic_poll_black_24dp"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Add"/>
+                    android:text="Statistics"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -136,7 +137,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Check your bank activities"
+                    android:text="Nitty Gritty Detail"
                     android:padding="5dp"
                     android:textColor="@android:color/darker_gray"/>
 
@@ -161,13 +162,13 @@
                     android:layout_height="64dp"
                     android:background="@drawable/cerclebackgroundyello"
                     android:padding="10dp"
-                    android:src="@drawable/ic_attach_file_black_24dp" />
+                    android:src="@drawable/ic_directions_bus_black_24dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="Links"
+                    android:text="Bus Times"
                     android:textStyle="bold" />
 
                 <View
@@ -181,7 +182,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:padding="5dp"
-                    android:text="Check your bank activities"
+                    android:text="Check when the next bus is due"
                     android:textColor="@android:color/darker_gray" />
 
             </LinearLayout>
