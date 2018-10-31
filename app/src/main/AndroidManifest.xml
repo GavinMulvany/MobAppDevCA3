@@ -19,7 +19,7 @@
         <activity android:name=".Forum" />
         <activity android:name=".Things" />
         <activity android:name=".Wifi" />
-        <activity android:name=".Links" />
+        <activity android:name=".Bus" />
         <activity android:name=".Add" />
         <activity android:name=".MainActivity">
 
