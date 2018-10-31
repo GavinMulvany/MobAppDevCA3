@@ -16,8 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Bank" />
-        <activity android:name=".Ideas" />
+        <activity android:name=".Forum" />
+        <activity android:name=".Things" />
         <activity android:name=".Wifi" />
         <activity android:name=".Links" />
         <activity android:name=".Add" />

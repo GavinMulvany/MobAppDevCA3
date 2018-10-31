@@ -36,11 +36,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent i;
 
         switch (v.getId()){
-            case R.id.bank_card: i = new Intent(this,Bank.class); startActivity(i); break;
-            case R.id.ideas_card : i = new Intent(this,Ideas.class); startActivity(i); break;
+            case R.id.bank_card: i = new Intent(this,Forum.class); startActivity(i); break;
+            case R.id.ideas_card : i = new Intent(this,Things.class); startActivity(i); break;
             case R.id.add_card : i = new Intent(this,Add.class); startActivity(i); break;
             case R.id.links_card: i = new Intent(this,Links.class); startActivity(i); break;
-            case R.id.wifi_card: i = new Intent(this,Bank.class); startActivity(i); break;
+            case R.id.wifi_card: i = new Intent(this,Forum.class); startActivity(i); break;
             default:break;
         }
 

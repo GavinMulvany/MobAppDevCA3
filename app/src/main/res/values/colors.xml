@@ -12,6 +12,8 @@
     <color name="testcolorblue">#152b38</color>
     <color name="pink">#fe104d</color>
     <color name = "white">#ffffff</color>
-
+    <color name="things1">#262938</color>
+    <color name="things2">#181A24</color>
+    <color name="colorTransparentWhite">#cccccc</color>
     <color name="black_overlay">#66000000</color>
 </resources>
