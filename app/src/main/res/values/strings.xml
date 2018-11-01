@@ -43,6 +43,11 @@
     //Splash Screen
     <string name="Splash_Text">Swords - A Town away from Town</string>
 
+    //Slider
+
+    <string name="Title_here">TITLE HERE</string>
+    <string name="Description_here">Description Here</string>
+
 
 
 

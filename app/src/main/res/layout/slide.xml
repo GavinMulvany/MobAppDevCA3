@@ -14,14 +14,14 @@
         android:id="@+id/txttitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TITLE HERE"
+        android:text="@string/Title_here"
         android:textSize="30sp"
         android:textStyle="bold"
         android:layout_marginTop="40dp"/>
 
     <TextView
         android:textAlignment="center"
-        android:text="Description Here"
+        android:text="@string/Description_here"
         android:textSize="17sp"
         android:layout_marginTop="40dp"
         android:id="@+id/txtdescription"
