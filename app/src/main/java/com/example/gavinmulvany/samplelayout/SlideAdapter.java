@@ -24,6 +24,7 @@ public class SlideAdapter extends PagerAdapter {
     };
 
    public String[] titles = {
+
            "Activities",
            "Places to Wine and Dine",
            "Hotels and B&Bs"

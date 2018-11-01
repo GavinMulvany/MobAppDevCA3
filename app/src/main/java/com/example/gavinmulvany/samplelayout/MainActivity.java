@@ -19,13 +19,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ideasCard = (CardView) findViewById(R.id.ideas_card);
         addCard = (CardView) findViewById(R.id.add_card);
         linksCard = (CardView) findViewById(R.id.links_card);
-        wifiCard = (CardView) findViewById(R.id.wifi_card);
+
         // add click listeners to cards
         bankCard.setOnClickListener(this);
         ideasCard.setOnClickListener(this);
         addCard.setOnClickListener(this);
         linksCard.setOnClickListener(this);
-        wifiCard.setOnClickListener(this);
+
 
 
 
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.ideas_card : i = new Intent(this,Things.class); startActivity(i); break;
             case R.id.add_card : i = new Intent(this,Add.class); startActivity(i); break;
             case R.id.links_card: i = new Intent(this,Bus.class); startActivity(i); break;
-            case R.id.wifi_card: i = new Intent(this,Forum.class); startActivity(i); break;
+
             default:break;
         }
 

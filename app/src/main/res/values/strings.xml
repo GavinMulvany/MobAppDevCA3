@@ -1,3 +1,47 @@
 <resources>
-    <string name="app_name">SampleLayout</string>
+    <string name="app_name">Swords</string>
+
+    //Activity Main
+    <string name="Forum_Heading">Forum</string>
+    <string name="Forum_SubHeading">Check out what people in Swords are saying</string>
+    <string name="Things_Heading">Things to Do</string>
+    <string name="Things_SubHeading">Check out what Swords has to offer</string>
+    <string name="Stats_Heading">Statistics</string>
+    <string name="Stats_SubHeading">Top Secret information about Swords</string>
+    <string name="Bus_Heading">Bus Times </string>
+    <string name="Bus_SubHeading">View when the next bus is</string>
+
+
+    //Stats Sections
+    <string name="Crime_Heading">Crime</string>
+    <string name="Crime_SubHeading">View the number of crimes committed in Swords</string>
+    <string name="Population_Heading">Population</string>
+    <string name="Population_SubHeading">Check out how much Swords has grown</string>
+    <string name="Schools_Heading">Schools</string>
+    <string name="Schools_SubHeading">Find out key details about schools in the area</string>
+    <string name="Construction_Heading">Construction</string>
+    <string name="Construction_SubHeading">View whats getting built in Swords</string>
+
+    //Forum login
+    <string name="Swords_Forum_Heading">Swords Forum</string>
+    <string name="Swords_Forum_SubHeading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</string>
+    <string name="LearnMore_Button">LEARN MORE</string>
+    <string name="SignUp_Button">SIGN UP</string>
+    <string name="Username">USERNAME</string>
+    <string name="Password">PASSWORD</string>
+    <string name="Login">LOGIN</string>
+
+    //Dublin Bus Fragment
+    <string name="DublinBus">DUBLIN BUS</string>
+
+    //Swords Express Fragment
+    <string name="SwordsExpress">Swords Express</string>
+
+    //Things to do slide
+    <string name="Activities">Activities</string>
+
+
+
+
+
 </resources>

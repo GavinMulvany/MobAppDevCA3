@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".Add"
     android:orientation="vertical"
     android:padding="10dp"
     android:background="#fcfcfc"
@@ -35,13 +35,13 @@
                     android:layout_height="64dp"
                     android:background="@drawable/cerclebackgroundpurple"
                     android:padding="10dp"
-                    android:src="@drawable/ic_forum_black_24dp" />
+                    android:src="@drawable/ic_warning_black_24dp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="@string/Forum_Heading"/>
+                    android:text="@string/Crime_Heading"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -51,7 +51,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/Forum_SubHeading"
+                    android:text="@string/Crime_SubHeading"
                     android:padding="5dp"
                     android:textColor="@android:color/darker_gray"/>
 
@@ -73,14 +73,14 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/cerclebackgroundpink"
-                    android:src="@drawable/ic_local_bar_black_24dp"
+                    android:src="@drawable/ic_person_add_black_24dp"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="@string/Things_Heading"/>
+                    android:text="@string/Population_Heading"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -90,7 +90,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/Things_SubHeading"
+                    android:text="@string/Population_SubHeading"
                     android:padding="5dp"
                     android:textColor="@android:color/darker_gray"/>
 
@@ -120,14 +120,15 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/cerclebackgroundgreen"
-                    android:src="@drawable/ic_poll_black_24dp"
+                    android:src="@drawable/ic_school_black_24dp"
                     android:padding="10dp"/>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="@string/Stats_Heading"/>
+                    android:text="@string/Schools_Heading"
+                    android:textStyle="bold" />
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -137,7 +138,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/Stats_SubHeading"
+                    android:text="@string/Schools_SubHeading"
                     android:padding="5dp"
                     android:textColor="@android:color/darker_gray"/>
 
@@ -162,13 +163,13 @@
                     android:layout_height="64dp"
                     android:background="@drawable/cerclebackgroundyello"
                     android:padding="10dp"
-                    android:src="@drawable/ic_directions_bus_black_24dp" />
+                    android:src="@drawable/ic_location_city_black_24dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="@string/Bus_Heading"
+                    android:text="@string/Construction_Heading"
                     android:textStyle="bold" />
 
                 <View
@@ -182,7 +183,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:padding="5dp"
-                    android:text="@string/Bus_SubHeading"
+                    android:text="@string/Construction_SubHeading"
                     android:textColor="@android:color/darker_gray" />
 
             </LinearLayout>
