@@ -40,6 +40,9 @@
     //Things to do slide
     <string name="Activities">Activities</string>
 
+    //Splash Screen
+    <string name="Splash_Text">Swords - A Town away from Town</string>
+
 
 
 

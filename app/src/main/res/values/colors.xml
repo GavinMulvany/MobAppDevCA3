@@ -18,5 +18,10 @@
     <color name="black_overlay">#66000000</color>
     <color name="tabtextcolor">#fff</color>
     <color name="tabindicatorcolor">#2d2d2d</color>
-    
+    <color name="dfgreen">#ff99bb</color>
+    <color name="red">#ff8080</color>
+    <color name="blue">#99c2ff</color>
+    <color name="darker_or">#ffdd99</color>
+
+
 </resources>

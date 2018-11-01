@@ -33,7 +33,7 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/cerclebackgroundpurple"
+                    android:background="@drawable/cerclebackgroundlimegreen"
                     android:padding="10dp"
                     android:src="@drawable/ic_warning_black_24dp" />
                 <TextView
@@ -72,7 +72,7 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/cerclebackgroundpink"
+                    android:background="@drawable/cerclebackgroundorgange"
                     android:src="@drawable/ic_person_add_black_24dp"
                     android:padding="10dp"/>
                 <TextView
@@ -119,7 +119,7 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/cerclebackgroundgreen"
+                    android:background="@drawable/cerclebackgroundrred"
                     android:src="@drawable/ic_school_black_24dp"
                     android:padding="10dp"/>
 
@@ -161,7 +161,7 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/cerclebackgroundyello"
+                    android:background="@drawable/cerclebackgroundblue"
                     android:padding="10dp"
                     android:src="@drawable/ic_location_city_black_24dp" />
 
