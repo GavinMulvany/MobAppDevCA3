@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--parts taken from: https://www.youtube.com/watch?v=7zaKUc2zfpI&t=732s-->
+<!--bus icon from: https://play.google.com/store/apps/details?id=com.nextbus.dublin&hl=en-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"

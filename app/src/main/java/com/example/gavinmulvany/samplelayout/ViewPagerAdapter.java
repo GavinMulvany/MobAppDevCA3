@@ -1,5 +1,7 @@
 package com.example.gavinmulvany.samplelayout;
 
+/*parts taken from https://www.youtube.com/watch?v=R_AIUy7tFVA&t=10s*/
+
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

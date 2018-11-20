@@ -1,3 +1,5 @@
+// modified from https://www.youtube.com/watch?v=-YCUrHFUxlA
+
 package com.example.gavinmulvany.samplelayout;
 
 import android.content.Intent;
