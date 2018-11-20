@@ -7,7 +7,7 @@ import android.support.v7.widget.CardView;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-        private CardView bankCard, ideasCard, addCard, linksCard, wifiCard;
+        private CardView forumCard, thingsCard, statsCard, busCard;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,19 +15,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         //defining cards
-        bankCard = (CardView) findViewById(R.id.bank_card);
-        ideasCard = (CardView) findViewById(R.id.ideas_card);
-        addCard = (CardView) findViewById(R.id.add_card);
-        linksCard = (CardView) findViewById(R.id.links_card);
+        forumCard = (CardView) findViewById(R.id.forum_card); //forum
+        thingsCard = (CardView) findViewById(R.id.things_card); //things
+        statsCard = (CardView) findViewById(R.id.stat_card); //stat
+        busCard = (CardView) findViewById(R.id.bus_card); //bus
 
         // add click listeners to cards
-        bankCard.setOnClickListener(this);
-        ideasCard.setOnClickListener(this);
-        addCard.setOnClickListener(this);
-        linksCard.setOnClickListener(this);
-
-
-
+        forumCard.setOnClickListener(this);
+        thingsCard.setOnClickListener(this);
+        statsCard.setOnClickListener(this);
+        busCard.setOnClickListener(this);
 
     }
 
@@ -36,10 +33,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent i;
 
         switch (v.getId()){
-            case R.id.bank_card: i = new Intent(this,Forum.class); startActivity(i); break;
-            case R.id.ideas_card : i = new Intent(this,Things.class); startActivity(i); break;
-            case R.id.add_card : i = new Intent(this,Add.class); startActivity(i); break;
-            case R.id.links_card: i = new Intent(this,Bus.class); startActivity(i); break;
+            case R.id.forum_card: i = new Intent(this,Forum.class); startActivity(i); break;
+            case R.id.things_card: i = new Intent(this,Things.class); startActivity(i); break;
+            case R.id.stat_card: i = new Intent(this,Add.class); startActivity(i); break;
+            case R.id.bus_card: i = new Intent(this,Bus.class); startActivity(i); break;
 
             default:break;
         }

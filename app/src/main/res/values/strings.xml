@@ -48,6 +48,9 @@
     <string name="Title_here">TITLE HERE</string>
     <string name="Description_here">Description Here</string>
 
+    //Slider adapter
+    <string name="slide_Activities">Activities</string>
+
 
 
 
