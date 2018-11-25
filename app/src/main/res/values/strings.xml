@@ -1,3 +1,4 @@
+<!--Created by Gavin Mulvany x15448892 -->
 <resources>
     <string name="app_name">Swords</string>
 
@@ -32,10 +33,10 @@
     <string name="Login">LOGIN</string>
 
     //Dublin Bus Fragment
-    <string name="DublinBus">DUBLIN BUS</string>
+    <string name="DublinBus">THERE ARE NO DUBLIN BUS TIMETABLES AVAILABLE YET</string>
 
     //Swords Express Fragment
-    <string name="SwordsExpress">Swords Express</string>
+    <string name="SwordsExpress">SWORDS EXPRESS TIMETABLE IS NOT CURRENTLY AVAILABLE</string>
 
     //Things to do slide
     <string name="Activities">Activities</string>
@@ -50,9 +51,5 @@
 
     //Slider adapter
     <string name="slide_Activities">Activities</string>
-
-
-
-
-
+    
 </resources>

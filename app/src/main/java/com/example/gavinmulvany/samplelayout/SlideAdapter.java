@@ -1,4 +1,5 @@
 package com.example.gavinmulvany.samplelayout;
+//created by Gavin Mulvany - x15448892
 
 import android.content.Context;
 import android.graphics.Color;
@@ -31,7 +32,7 @@ public class SlideAdapter extends PagerAdapter {
    };
 
    public String[] descriptions = {
-           "Check out everything Swords has to offer!. From Viking History to Shopping Centres, Swords has everything you need.",
+           "Check out everything Swords has to offer!. From Viking History to Shopping Centres, Swords has everything you need. Swipe Right to see more!",
            "With an abundance of restaurants and bars, you will be spoiled for choice. Check out what Swords has to offer.",
            "Why not stay the night, with a variety of Hotels and B&Bs you'll never want to leave"
 
