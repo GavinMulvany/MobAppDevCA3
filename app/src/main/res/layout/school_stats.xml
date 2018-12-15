@@ -28,7 +28,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="29dp"
-        android:text="parse" />
+        android:text="Generate Latest School Data" />
 
     <TextView
         android:id="@+id/textView"

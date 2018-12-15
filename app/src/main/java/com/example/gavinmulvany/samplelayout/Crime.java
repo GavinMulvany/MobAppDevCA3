@@ -2,10 +2,13 @@ package com.example.gavinmulvany.samplelayout;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
+import android.support.v7.widget.CardView;
 import android.view.View;
+import android.content.Intent;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
+import android.text.method.ScrollingMovementMethod;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -39,11 +42,14 @@ public class Crime extends AppCompatActivity {
                 jsonParse();
             }
         });
+
+        TextView textView = (TextView) findViewById(R.id.text_view_result);
+        textView.setMovementMethod(new ScrollingMovementMethod());
     }
 
     private void jsonParse() {
 
-        String url = "https://api.myjson.com/bins/ioxck";
+        String url = "https://api.myjson.com/bins/dmz70";
 
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONObject>() {
@@ -55,13 +61,35 @@ public class Crime extends AppCompatActivity {
                             for (int i = 0; i < jsonArray.length(); i++) {
                                 JSONObject statistics = jsonArray.getJSONObject(i);
 
-                                String SchoolName = statistics.getString("SchoolName");
-                                String Address = statistics.getString("Address");
-                                String  SchoolLevel= statistics.getString("SchoolLevel");
-                                int NumberOfMales = statistics.getInt("NumberOfMales");
-                                int  NumberOfFemales= statistics.getInt("NumberOfFemales");
+                                int Murders_Assualts = statistics.getInt("Murders_Assualts");
+                                int  Attempts_Murder_Assult= statistics.getInt("Attempts_Murder_Assult");
+                                int Robbery = statistics.getInt("Robbery");
+                                int  Burglary= statistics.getInt("Burglary");
+                                int Theft = statistics.getInt("Theft");
+                                int  Fraud= statistics.getInt("Fraud");
+                                int Drug_Offences = statistics.getInt("Drug_Offences");
+                                int  Weapons= statistics.getInt("Weapons");
+                                int Damage_to_property = statistics.getInt("Damage_to_property");
+                                int  Public_order= statistics.getInt("Public_order");
+                                int Offences_against_gov = statistics.getInt("Offences_against_gov");
 
-                                mTextViewResult.append(SchoolName + ", " + Address + ", "  + SchoolLevel + ", "  + String.valueOf(NumberOfMales) + ", " + String.valueOf(NumberOfFemales) + "\n\n");
+
+
+
+
+                                mTextViewResult.append("Number of Murders and Assaults : " +String.valueOf(Murders_Assualts)  + "\n" +
+                                        "Attempted Murders and Assaults : " +String.valueOf(Attempts_Murder_Assult)  + "\n"  +
+                                        "Number of Robberies: "+String.valueOf(Robbery)  + "\n"  +
+                                        "Number of Burglaries: " +String.valueOf(Burglary) + "\n " +
+                                        "Number of Thefts: " +String.valueOf(Theft) + "\n " +
+                                        "Number of Fraud offences: " +String.valueOf(Fraud) + "\n " +
+                                        "Number of Drug Offences: " +String.valueOf(Drug_Offences) + "\n " +
+                                        "Number of Weapon crimes: " +String.valueOf(Weapons) + "\n " +
+                                        "Damage to property offences: " +String.valueOf(Damage_to_property) + "\n " +
+                                        "Number of Public order offences: " +String.valueOf(Public_order) + "\n " +
+                                        "Number of Offences against the Government " +String.valueOf(Offences_against_gov) + "\n "
+
+                                );
                             }
                         } catch (JSONException e) {
                             e.printStackTrace();
@@ -77,3 +105,4 @@ public class Crime extends AppCompatActivity {
         mQueue.add(request);
     }
 }
+

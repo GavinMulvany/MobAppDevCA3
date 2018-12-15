@@ -10,7 +10,7 @@ import android.support.v7.widget.CardView;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-        private CardView forumCard, thingsCard, statsCard, busCard;
+        private CardView forumCard, thingsCard, statsCard, busCard, mapCard;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         thingsCard = (CardView) findViewById(R.id.things_card); //things
         statsCard = (CardView) findViewById(R.id.stat_card); //stat
         busCard = (CardView) findViewById(R.id.bus_card); //bus
+        mapCard = (CardView) findViewById(R.id.map_card); //bus
 
 
         // add click listeners to cards
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         thingsCard.setOnClickListener(this);
         statsCard.setOnClickListener(this);
         busCard.setOnClickListener(this);
+        mapCard.setOnClickListener(this);
 
     }
 
@@ -37,10 +39,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent i;
 
         switch (v.getId()){
-            case R.id.forum_card: i = new Intent(this,Forum.class); startActivity(i); break;
+            case R.id.forum_card: i = new Intent(this,Crime.class); startActivity(i); break;
             case R.id.things_card: i = new Intent(this,Things.class); startActivity(i); break;
-            case R.id.stat_card: i = new Intent(this,StatsActivity.class); startActivity(i); break;
+            case R.id.stat_card: i = new Intent(this,School.class); startActivity(i); break;
             case R.id.bus_card: i = new Intent(this,Bus.class); startActivity(i); break;
+            case R.id.map_card: i = new Intent(this,MapsActivity.class); startActivity(i); break;
+
 
             default:break;
         }

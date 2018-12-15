@@ -1,11 +1,14 @@
 package com.example.gavinmulvany.samplelayout;
 
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.text.method.ScrollingMovementMethod;
+import android.os.Bundle;
+import android.support.v7.widget.CardView;
 import android.view.View;
+import android.content.Intent;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
+import android.text.method.ScrollingMovementMethod;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -80,4 +83,3 @@ public class School extends AppCompatActivity {
         mQueue.add(request);
     }
 }
-
