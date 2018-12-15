@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         statsCard = (CardView) findViewById(R.id.stat_card); //stat
         busCard = (CardView) findViewById(R.id.bus_card); //bus
 
+
         // add click listeners to cards
         forumCard.setOnClickListener(this);
         thingsCard.setOnClickListener(this);
@@ -38,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()){
             case R.id.forum_card: i = new Intent(this,Forum.class); startActivity(i); break;
             case R.id.things_card: i = new Intent(this,Things.class); startActivity(i); break;
-            case R.id.stat_card: i = new Intent(this,Add.class); startActivity(i); break;
+            case R.id.stat_card: i = new Intent(this,StatsActivity.class); startActivity(i); break;
             case R.id.bus_card: i = new Intent(this,Bus.class); startActivity(i); break;
 
             default:break;
