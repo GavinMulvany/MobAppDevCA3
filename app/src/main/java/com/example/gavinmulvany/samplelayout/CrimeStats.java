@@ -21,7 +21,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class Crime extends AppCompatActivity {
+public class CrimeStats extends AppCompatActivity {
 
     private TextView mTextViewResult;
     private RequestQueue mQueue;
@@ -104,5 +104,6 @@ public class Crime extends AppCompatActivity {
 
         mQueue.add(request);
     }
+
 }
 

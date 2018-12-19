@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
-public class Things extends AppCompatActivity {
+public class ThingsToDo extends AppCompatActivity {
 
 private ViewPager viewPager;
     private SlideAdapter myadapter;

@@ -3,8 +3,8 @@
     <string name="app_name">Swords</string>
 
     //Activity Main
-    <string name="Forum_Heading">Forum</string>
-    <string name="Forum_SubHeading">Check out what people in Swords are saying</string>
+    <string name="Forum_Heading">Bus times</string>
+    <string name="Forum_SubHeading">Check out bus times</string>
     <string name="Things_Heading">Things to Do</string>
     <string name="Things_SubHeading">Check out what Swords has to offer</string>
     <string name="Stats_Heading">Stats on Schools</string>

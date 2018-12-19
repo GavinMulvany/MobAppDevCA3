@@ -10,7 +10,7 @@ import android.support.v7.widget.CardView;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-        private CardView forumCard, thingsCard, statsCard, busCard, mapCard;
+        private CardView timesCard, thingsCard, statsCard, crimeCard, mapsCard;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,19 +18,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         //defining cards
-        forumCard = (CardView) findViewById(R.id.forum_card); //forum
+        timesCard  = (CardView) findViewById(R.id.times_card); //bus
         thingsCard = (CardView) findViewById(R.id.things_card); //things
         statsCard = (CardView) findViewById(R.id.stat_card); //stat
-        busCard = (CardView) findViewById(R.id.bus_card); //bus
-        mapCard = (CardView) findViewById(R.id.map_card); //bus
+        crimeCard = (CardView) findViewById(R.id.crime_card); //bus
+        mapsCard = (CardView) findViewById(R.id.maps_card); //bus
+
 
 
         // add click listeners to cards
-        forumCard.setOnClickListener(this);
+        timesCard.setOnClickListener(this);
         thingsCard.setOnClickListener(this);
         statsCard.setOnClickListener(this);
-        busCard.setOnClickListener(this);
-        mapCard.setOnClickListener(this);
+        crimeCard.setOnClickListener(this);
+        mapsCard.setOnClickListener(this);
 
     }
 
@@ -39,11 +40,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent i;
 
         switch (v.getId()){
-            case R.id.forum_card: i = new Intent(this,Crime.class); startActivity(i); break;
-            case R.id.things_card: i = new Intent(this,Things.class); startActivity(i); break;
+            case R.id.times_card: i = new Intent(this,BusTimes.class); startActivity(i); break;
+            case R.id.things_card: i = new Intent(this,ThingsToDo.class); startActivity(i); break;
             case R.id.stat_card: i = new Intent(this,School.class); startActivity(i); break;
-            case R.id.bus_card: i = new Intent(this,Bus.class); startActivity(i); break;
-            case R.id.map_card: i = new Intent(this,MapsActivity.class); startActivity(i); break;
+            case R.id.crime_card: i = new Intent(this,CrimeStats.class); startActivity(i); break;
+            case R.id.maps_card: i = new Intent(this,MapsActivity.class); startActivity(i); break;
+
 
 
             default:break;
