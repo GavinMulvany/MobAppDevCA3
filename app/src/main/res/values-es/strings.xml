@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Espadas</string>
+    <string name="Forum_Heading">Horarios de bus</string>
+    <string name="Forum_SubHeading">Echa un vistazo a los horarios de autobuses</string>
+    <string name="Things_Heading">Cosas para hacer</string>
+    <string name="Things_SubHeading">Mira lo que Swords tiene para ofrecer</string>
+    <string name="Stats_Heading">Estadísticas en las escuelas</string>
+    <string name="Stats_SubHeading">Usa nuestros datos para descubrir qué escuela es la mejor para ti</string>
+    <string name="Crime_Heading1">Estadísticas sobre el crimen</string>
+    <string name="Crime_SubHeading1">Ver las figuras del crimen para Swords.</string>
+    <string name="Crime_Heading">Crimen</string>
+    <string name="Crime_SubHeading">Ver el número de delitos cometidos en espadas.</string>
+    <string name="Population_Heading">Población</string>
+    <string name="Population_SubHeading">Echa un vistazo a cuánto ha crecido Swords</string>
+    <string name="Schools_Heading">Escuelas</string>
+    <string name="Schools_SubHeading">Descubre los detalles clave sobre las escuelas en el área.</string>
+    <string name="Construction_Heading">Construcción</string>
+    <string name="Construction_SubHeading">Ver qué se está construyendo en Swords</string>
+    <string name="Swords_Forum_Heading">Foro de espadas</string>
+    <string name="Swords_Forum_SubHeading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</string>
+    <string name="LearnMore_Button">APRENDE MÁS</string>
+    <string name="SignUp_Button">REGÍSTRATE</string>
+    <string name="Username">Nombre de usuario</string>
+    <string name="Login">INICIAR SESIÓN</string>
+    <string name="Password">"CONTRASEÑA "</string>
+    <string name="DublinBus">NO EXISTEN HORARIOS DE DUBLIN BUS</string>
+    <string name="SwordsExpress">NO EXISTEN HORARIOS DE DUBLIN BUS</string>
+    <string name="Activities">Ocupaciones</string>
+    <string name="Splash_Text">Swords - Una ciudad lejos de la ciudad</string>
+    <string name="Title_here">TÍTULO AQUÍ</string>
+    <string name="Description_here">Descripción aquí</string>
+    <string name="slide_Activities">Ocupaciones</string>
+    <string name="title_activity_maps">Mapa</string>
+</resources>

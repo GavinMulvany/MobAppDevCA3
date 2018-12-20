@@ -75,7 +75,7 @@ public class BusTimes extends AppCompatActivity {
 
 
 
-                                mTextViewResult.append("Bus number: " +String.valueOf(route)+ " is due in : " +String.valueOf(duetime)+ " minutes"  + "\n");
+                                mTextViewResult.append(getString(R.string.Bus_Number)+ " " +String.valueOf(route) + " " + getString(R.string.due_in) + " " +String.valueOf(duetime)+ " "+ getString(R.string.minutes) + " "  + "\n");
                             }
                         } catch (JSONException e) {
                             e.printStackTrace();

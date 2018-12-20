@@ -53,4 +53,11 @@
     <string name="slide_Activities">Activities</string>
     <string name="title_activity_maps">Map</string>
 
+
+    <string name="Bus_Number">Bus Number</string>
+    <string name="due_in">is due in</string>
+    <string name="minutes">minute(s)</string>
+
+
+
 </resources>
