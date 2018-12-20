@@ -32,4 +32,23 @@
     <string name="Description_here">Descripción aquí</string>
     <string name="slide_Activities">Ocupaciones</string>
     <string name="title_activity_maps">Mapa</string>
+    <string name="Offences_against_gov">Número de delitos contra el gobierno:</string>
+    <string name="Public_order">Número de infracciones de orden público:</string>
+    <string name="Damage_to_property">Daños a delitos de propiedad:</string>
+    <string name="Weapons">Número de delitos con armas:</string>
+    <string name="Drug_Offences">Número de delitos de drogas:</string>
+    <string name="Fraud">Número de delitos de fraude:</string>
+    <string name="Attempts_Murder_Assult">Intentos de homicidios y agresiones:</string>
+    <string name="Number_of_Murders_and_Assaults">"Número de asesinatos y agresiones: "</string>
+    <string name="Bus_Number">Número de autobús</string>
+    <string name="due_in">se debe en</string>
+    <string name="minutes">minutos</string>
+    <string name="r">Número de robos: </string>
+    <string name="theft">Número de el hurto: </string>
+    <string name="brg">Número de robos:</string>
+    <string name="SchoolName">Nombre de la escuela:</string>
+    <string name="Address">Dirección:</string>
+    <string name="SchoolLevel">Nivel escolar:</string>
+    <string name="NumberOfMales">Número de machos:</string>
+    <string name="NumberOfFemales">Número de hembras:</string>
 </resources>

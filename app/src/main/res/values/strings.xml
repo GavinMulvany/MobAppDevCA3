@@ -54,9 +54,35 @@
     <string name="title_activity_maps">Map</string>
 
 
+    //bus times
     <string name="Bus_Number">Bus Number</string>
     <string name="due_in">is due in</string>
     <string name="minutes">minute(s)</string>
+
+    //crime stats
+    <string name="Number_of_Murders_and_Assaults">Number of Murders and Assaults:</string>
+    <string name="Attempts_Murder_Assult">Attempted Murders and Assaults:</string>
+    <string name="r">Number of Robberies: </string>
+    <string name="brg">Number of Burglaries:</string>
+    <string name="theft">Number of thefts: </string>
+    <string name="Fraud">Number of Fraud offences:</string>
+    <string name="Drug_Offences">Number of Drug Offences:</string>
+    <string name="Weapons">Number of Weapon crimes:</string>
+    <string name="Damage_to_property">Damage to property offences:</string>
+    <string name="Public_order">Number of Public order offences: </string>
+    <string name="Offences_against_gov">Number of Offences against the Government:</string>
+
+    //school stats
+
+    <string name="SchoolName">School Name:</string>
+    <string name="Address">Address:</string>
+    <string name="SchoolLevel">School Level:</string>
+    <string name="NumberOfMales">Number of Males:</string>
+    <string name="NumberOfFemales">Number of Females:</string>
+
+
+
+
 
 
 
