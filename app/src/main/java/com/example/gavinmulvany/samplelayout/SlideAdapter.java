@@ -19,29 +19,42 @@ public class SlideAdapter extends PagerAdapter {
 
    public int[] images = {
 
-           R.drawable.code_icon,
-           R.drawable.eat_icon,
-           R.drawable.sleep_icon
+           R.drawable.chips,
+           R.drawable.burger,
+           R.drawable.pizza,
+           R.drawable.steak,
+           R.drawable.salad,
+           R.drawable.brunch
     };
 
    public String[] titles = {
 
-           "Activities",
-           "Places to Wine and Dine",
-           "Hotels and B&Bs"
+           "Where to Eat?",
+           "Ruby's",
+           "Pomodorino",
+           "The Old School House",
+           "Green Straw",
+           "The Gourmet Food Parlour"
    };
 
    public String[] descriptions = {
-           "Check out everything Swords has to offer!. From Viking History to Shopping Centres, Swords has everything you need. Swipe Right to see more!",
-           "With an abundance of restaurants and bars, you will be spoiled for choice. Check out what Swords has to offer.",
-           "Why not stay the night, with a variety of Hotels and B&Bs you'll never want to leave"
+           "Swords is a multi-cultural Town with lots to offer, especially in restaurants."+ "\n\n" + "We've put together a list of the best places to eat in Swords" + "\n\n" + "SWIPE RIGHT",
+           "Ruby’s award winning restaurants are relaxed and informal serving the finest Pizzas, Burgers, Wings, Ribs, Steaks, Pastas and more. \n" + " Cocktails are a speciality, lunch is great value and you don’t need to book."+"\n\n"+"Where is it: Pavilions Shopping Centre",
+           "Authentic  Italian Eatery, Pomodorino offers customers Wood-fired Pizzas, pasta dishes,appetizers,wines & coffee.\n" + "Open for Lunch & Dinner. Eat-in- Take-Away & Collection/Delivery available" + "\n\n" + "Where is it: Unit 3, 14 Main Street ",
+           "A traditional but modern Irish pub which specialise in locally sourced steak and seafood.\n\n" + "Extensive menu, with great early bird and daily specials available.\n\n" +"Downstairs in the bar you can sit and enjoy a great pint of Guinness, watch all sporting events on their big screens, take in some live music, enjoy a burger or steak from their barfood menu or simply just sit outside in our beautiful all year round beer garden" +"\n\n"+"Where is it: Coolbanagher, Church Road",
+           "Healthy Cafe serving only homemade food from local suppliers, organic fruits and veg among their ingredients.\n\n" + "Dishes include our signature Protein pancakes with peanut butter sauce, Cloud Picker Coffee, full selection of breakfast, lunch and desert items." +"\n\n" + "Where is it: Unit 3, 32-36 Main Street",
+           "Their restaurant is light & bright and their team is warm, friendly & efficient. Whether you are looking for a bite to eat for breakfast, lunch or dinner or somewhere to host a celebratory meal, it’s the perfect spot." + "\n\n" + "Where is it: North Street, Swords Village"
 
    };
 
    public int[] backgroundcolor = {
-           Color.rgb(255,150,0),
-           Color.rgb(255,150,0),
-           Color.rgb(255,150, 0)
+           Color.rgb(255,255,255),
+           Color.rgb(255,255,255),
+           Color.rgb(255,255, 255),
+           Color.rgb(255,255,255),
+           Color.rgb(255,255, 255),
+           Color.rgb(255,255, 255)
+
    };
 
    public SlideAdapter(Context context){
