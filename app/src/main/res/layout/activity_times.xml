@@ -18,7 +18,8 @@
         android:layout_marginBottom="26dp"
         android:ems="10"
         android:hint="Enter stop no"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:textColorLink="@color/colorPrimaryDark" />
 
 
     <Button

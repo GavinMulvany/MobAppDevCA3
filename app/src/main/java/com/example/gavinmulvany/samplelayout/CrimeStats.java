@@ -20,9 +20,11 @@ import com.android.volley.toolbox.Volley;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+//refs: https://www.youtube.com/watch?v=y2xtLqP8dSQ&t=36s
 
 public class CrimeStats extends AppCompatActivity {
 
+    //declare vars
     private TextView mTextViewResult;
     private RequestQueue mQueue;
 
@@ -45,12 +47,12 @@ public class CrimeStats extends AppCompatActivity {
         });
 
         TextView textView = (TextView) findViewById(R.id.text_view_result);
-        textView.setMovementMethod(new ScrollingMovementMethod());
+        textView.setMovementMethod(new ScrollingMovementMethod()); //allowing scrolling
     }
 
     private void jsonParse() {
 
-        String url = "https://api.myjson.com/bins/dmz70";
+        String url = "https://api.myjson.com/bins/dmz70"; //api url
 
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONObject>() {

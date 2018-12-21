@@ -10,6 +10,8 @@ import android.support.v7.widget.CardView;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
+    //declare card vars
         private CardView timesCard, thingsCard, statsCard, crimeCard, creditCard, roadCard;
 
     @Override
@@ -41,6 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         Intent i;
 
+        //starting activity
         switch (v.getId()){
             case R.id.times_card: i = new Intent(this,BusTimes.class); startActivity(i); break;
             case R.id.things_card: i = new Intent(this,ThingsToDo.class); startActivity(i); break;

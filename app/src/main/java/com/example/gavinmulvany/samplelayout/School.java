@@ -22,14 +22,16 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class School extends AppCompatActivity {
+//ref: https://www.youtube.com/watch?v=y2xtLqP8dSQ&t=36s
 
+    //declare vars
     private TextView mTextViewResult;
     private RequestQueue mQueue;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.school_stats);
+        setContentView(R.layout.school_stats); //adding in layout
 
         mTextViewResult = findViewById(R.id.text_view_result);
         Button buttonParse = findViewById(R.id.button_parse);
@@ -45,14 +47,14 @@ public class School extends AppCompatActivity {
         });
 
         TextView textView = (TextView) findViewById(R.id.text_view_result);
-        textView.setMovementMethod(new ScrollingMovementMethod());
+        textView.setMovementMethod(new ScrollingMovementMethod()); //making scroll
     }
 
     private void jsonParse() {
 
-        String url = "https://api.myjson.com/bins/ridl8";
+        String url = "https://api.myjson.com/bins/ridl8"; //targetting api
 
-        JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null,
+        JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null, //get request
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {

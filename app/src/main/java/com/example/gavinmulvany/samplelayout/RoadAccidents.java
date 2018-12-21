@@ -23,13 +23,16 @@ import org.json.JSONObject;
 
 public class RoadAccidents extends AppCompatActivity {
 
+    //refs for api connection using Volley: https://www.youtube.com/watch?v=y2xtLqP8dSQ&t=36s
+
+    //declare vars
     private TextView mTextViewResult;
     private RequestQueue mQueue;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_roadaccidents);
+        setContentView(R.layout.activity_roadaccidents); //adding layout
 
         mTextViewResult = findViewById(R.id.text_view_result);
         Button buttonParse = findViewById(R.id.button_parse);
@@ -50,18 +53,19 @@ public class RoadAccidents extends AppCompatActivity {
 
     private void jsonParse() {
 
-        String url = "https://api.myjson.com/bins/1etqhk";
+        String url = "https://api.myjson.com/bins/1etqhk"; //api url with data extracted from data.gov
 
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
                         try {
-                            JSONArray jsonArray = response.getJSONArray("statistics");
+                            JSONArray jsonArray = response.getJSONArray("statistics"); //calling in json list name
 
                             for (int i = 0; i < jsonArray.length(); i++) {
                                 JSONObject statistics = jsonArray.getJSONObject(i);
 
+                                //json vars that im targetting
                                 int Airport = statistics.getInt("Airport");
                                 int SWORDS_GLASMORE = statistics.getInt("SWORDS_GLASMORE");
                                 int SWORDS_FORREST = statistics.getInt("SWORDS_FORREST");

@@ -37,9 +37,6 @@
         <activity android:name=".RoadAccidents" />
         <activity android:name=".About"/>
 
-        <activity
-            android:name=".MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
         <activity android:name=".MainActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.

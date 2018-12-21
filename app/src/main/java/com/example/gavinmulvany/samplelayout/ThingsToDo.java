@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
+//connected to my viewpager
+
+
 public class ThingsToDo extends AppCompatActivity {
 
 private ViewPager viewPager;

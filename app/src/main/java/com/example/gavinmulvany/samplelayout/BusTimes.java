@@ -38,7 +38,7 @@ public class BusTimes extends AppCompatActivity {
 
         mQueue = Volley.newRequestQueue(this);
 
-        final EditText editText = (EditText) findViewById(R.id.stopnum);
+        final EditText editText = (EditText) findViewById(R.id.stopnum); //taking a users stop mun from the edit plan
 
         stopNum = "none";
 
@@ -47,8 +47,8 @@ public class BusTimes extends AppCompatActivity {
         buttonParse.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mTextViewResult.setText("");
-                stopNum = editText.getText().toString();
+                mTextViewResult.setText(""); //setting the text to blank for every search so it gets overwrited
+                stopNum = editText.getText().toString(); //putting my stop num input to a string to place in my url
                 jsonParse();
             }
         });
@@ -57,7 +57,7 @@ public class BusTimes extends AppCompatActivity {
 
     private void jsonParse() {
 
-        String url = "https://data.smartdublin.ie/cgi-bin/rtpi/realtimebusinformation?stopid="+stopNum+"&format=json";
+        String url = "https://data.smartdublin.ie/cgi-bin/rtpi/realtimebusinformation?stopid="+stopNum+"&format=json"; //dublin bus api
 
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONObject>() {
@@ -69,8 +69,8 @@ public class BusTimes extends AppCompatActivity {
                             for (int i = 0; i < jsonArray.length(); i++) {
                                 JSONObject results = jsonArray.getJSONObject(i);
 
-                                String duetime = results.getString("duetime");
-                                String route = results.getString("route");
+                                String duetime = results.getString("duetime"); //getting back a duetime
+                                String route = results.getString("route"); //getting the route
 
 
 

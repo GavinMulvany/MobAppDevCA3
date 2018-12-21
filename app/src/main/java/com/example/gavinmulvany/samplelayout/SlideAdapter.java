@@ -1,6 +1,8 @@
 package com.example.gavinmulvany.samplelayout;
 //created by Gavin Mulvany - x15448892
 
+//refs: https://www.youtube.com/watch?v=R_AIUy7tFVA&t=10s
+
 import android.content.Context;
 import android.graphics.Color;
 import android.support.annotation.NonNull;
@@ -14,9 +16,11 @@ import android.widget.TextView;
 
 public class SlideAdapter extends PagerAdapter {
 
+    //declare vars
    Context context;
    LayoutInflater inflater;
 
+   //setting up my array images
    public int[] images = {
 
            R.drawable.chips,
@@ -27,6 +31,7 @@ public class SlideAdapter extends PagerAdapter {
            R.drawable.brunch
     };
 
+   //setting up my title
    public String[] titles = {
 
            "Where to Eat?",
@@ -37,6 +42,7 @@ public class SlideAdapter extends PagerAdapter {
            "The Gourmet Food Parlour"
    };
 
+   //setting up my desc
    public String[] descriptions = {
            "Swords is a multi-cultural Town with lots to offer, especially in restaurants."+ "\n\n" + "We've put together a list of the best places to eat in Swords" + "\n\n" + "SWIPE RIGHT",
            "Ruby’s award winning restaurants are relaxed and informal serving the finest Pizzas, Burgers, Wings, Ribs, Steaks, Pastas and more. \n" + " Cocktails are a speciality, lunch is great value and you don’t need to book."+"\n\n"+"Where is it: Pavilions Shopping Centre",
@@ -47,6 +53,7 @@ public class SlideAdapter extends PagerAdapter {
 
    };
 
+   //setting up a background colour
    public int[] backgroundcolor = {
            Color.rgb(255,255,255),
            Color.rgb(255,255,255),
@@ -88,6 +95,7 @@ public class SlideAdapter extends PagerAdapter {
         return view;
     }
 
+    //everytime we swipe the old page gets destroyed
     @Override
     public void destroyItem( ViewGroup container, int position, Object object) {
         container.removeView((LinearLayout)object);
