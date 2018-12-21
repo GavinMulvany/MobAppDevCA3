@@ -39,6 +39,7 @@ public class CrimeStats extends AppCompatActivity {
         buttonParse.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                mTextViewResult.setText("");
                 jsonParse();
             }
         });
@@ -80,14 +81,14 @@ public class CrimeStats extends AppCompatActivity {
                                 mTextViewResult.append(getString(R.string.Number_of_Murders_and_Assaults)+" " +String.valueOf(Murders_Assualts)  + "\n" +
                                         getString(R.string.Attempts_Murder_Assult)+" " +String.valueOf(Attempts_Murder_Assult)  + "\n"  +
                                         getString(R.string.r)+" "+String.valueOf(Robbery)  + "\n"  +
-                                        getString(R.string.brg)+" " +String.valueOf(Burglary) + "\n " +
-                                        getString(R.string.theft)+" " +String.valueOf(Theft) + "\n " +
-                                        getString(R.string.Fraud)+" " +String.valueOf(Fraud) + "\n " +
-                                        getString(R.string.Drug_Offences)+" " +String.valueOf(Drug_Offences) + "\n " +
-                                        getString(R.string.Weapons)+" " +String.valueOf(Weapons) + "\n " +
-                                        getString(R.string.Damage_to_property)+" " +String.valueOf(Damage_to_property) + "\n " +
-                                        getString(R.string.Public_order)+" " +String.valueOf(Public_order) + "\n " +
-                                        getString(R.string.Offences_against_gov)+" " +String.valueOf(Offences_against_gov) + "\n "
+                                        getString(R.string.brg)+" " +String.valueOf(Burglary) + "\n" +
+                                        getString(R.string.theft)+" " +String.valueOf(Theft) + "\n" +
+                                        getString(R.string.Fraud)+" " +String.valueOf(Fraud) + "\n" +
+                                        getString(R.string.Drug_Offences)+" " +String.valueOf(Drug_Offences) + "\n" +
+                                        getString(R.string.Weapons)+" " +String.valueOf(Weapons) + "\n" +
+                                        getString(R.string.Damage_to_property)+" " +String.valueOf(Damage_to_property) + "\n" +
+                                        getString(R.string.Public_order)+" " +String.valueOf(Public_order) + "\n" +
+                                        getString(R.string.Offences_against_gov)+" " +String.valueOf(Offences_against_gov) + "\n"
 
                                 );
                             }

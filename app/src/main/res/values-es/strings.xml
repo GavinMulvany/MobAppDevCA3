@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Espadas</string>
+    <string name="app_name">Swords</string>
     <string name="Forum_Heading">Horarios de bus</string>
     <string name="Forum_SubHeading">Echa un vistazo a los horarios de autobuses</string>
     <string name="Things_Heading">Cosas para hacer</string>
@@ -51,4 +51,9 @@
     <string name="SchoolLevel">Nivel escolar:</string>
     <string name="NumberOfMales">Número de machos:</string>
     <string name="NumberOfFemales">Número de hembras:</string>
+    <string name="BusHint">Entrar en la parada de autobús No</string>
+    <string name="BusButton">Consultar horarios</string>
+    <string name="school_button">Ver las estadísticas más recientes de la escuela</string>
+    <string name="SchoolTitle">Estadísticas de la escuela para espadas</string>
+    <string name="crime_button">Ver las últimas estadísticas de delitos</string>
 </resources>

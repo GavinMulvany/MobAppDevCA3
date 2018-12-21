@@ -7,36 +7,70 @@
     android:padding="16dp"
     tools:context=".School">
 
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
 
-    <TextView
-        android:id="@+id/text_view_result"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/SchoolTitle"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="14dp"
-        android:layout_marginLeft="14dp"
-        android:layout_marginTop="69dp"
-        android:textColor="@android:color/black"
-        android:textSize="20sp" />
-
-    <Button
-        android:id="@+id/button_parse"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="29dp"
-        android:text="Generate Latest School Data" />
+        android:layout_marginTop="75dp">
 
-    <TextView
-        android:id="@+id/textView"
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button_parse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/school_button" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
+
         android:layout_alignParentTop="true"
-        android:textSize="30dp"
-        android:text="Schools In Swords" />
+        android:layout_marginTop="130dp">
+
+        <TextView
+            android:id="@+id/text_view_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="12dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+
+
+
 
 </RelativeLayout>

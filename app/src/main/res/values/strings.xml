@@ -45,7 +45,6 @@
     <string name="Splash_Text">Swords - A Town away from Town</string>
 
     //Slider
-
     <string name="Title_here">TITLE HERE</string>
     <string name="Description_here">Description Here</string>
 
@@ -53,11 +52,12 @@
     <string name="slide_Activities">Activities</string>
     <string name="title_activity_maps">Map</string>
 
-
     //bus times
     <string name="Bus_Number">Bus Number</string>
     <string name="due_in">is due in</string>
     <string name="minutes">minute(s)</string>
+    <string name="BusButton">Check Times</string>
+    <string name = "BusHint">Enter Bus Stop No</string>
 
     //crime stats
     <string name="Number_of_Murders_and_Assaults">Number of Murders and Assaults:</string>
@@ -71,14 +71,35 @@
     <string name="Damage_to_property">Damage to property offences:</string>
     <string name="Public_order">Number of Public order offences: </string>
     <string name="Offences_against_gov">Number of Offences against the Government:</string>
+    <string name="crime_button">View Latest Crime Statistics</string>
+    <string name="crime_header">Crime Statistics for Swords</string>
 
     //school stats
-
     <string name="SchoolName">School Name:</string>
     <string name="Address">Address:</string>
     <string name="SchoolLevel">School Level:</string>
     <string name="NumberOfMales">Number of Males:</string>
     <string name="NumberOfFemales">Number of Females:</string>
+    <string name="SchoolTitle">School Statistics for Swords</string>
+    <string name="school_button">View Latest School Statistics</string>
+
+    //road accidents
+    <string name="RoadHeading">Stats on Road Accidents</string>
+    <string name="RoadSubheading">View latest data for Swords roads</string>
+    <string name="roadButton">View Latest Road Accident Statistics</string>
+    <string name="RoadTitle">Road Accident Statistics for Swords</string>
+    <string name="Airport">Airport Road Accidents:</string>
+    <string name="Glasmore"> Glasmore Road Accidents:</string>
+    <string name="Lissenhall">Lissenhall Road Accidents:</string>
+    <string name="Forrest">Forest Road Accidents:</string>
+    <string name="Seatown">Seatown Road Accidents:</string>
+    <string name="Village">Swords Village Road Accidents:</string>
+    <string name="TheWard">The Ward Road Accidents:</string>
+
+
+
+
+
 
 
 

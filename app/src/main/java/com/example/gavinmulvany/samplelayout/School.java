@@ -39,6 +39,7 @@ public class School extends AppCompatActivity {
         buttonParse.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                mTextViewResult.setText("");
                 jsonParse();
             }
         });
@@ -67,7 +68,7 @@ public class School extends AppCompatActivity {
                                 int NumberOfMales = statistics.getInt("NumberOfMales");
                                 int  NumberOfFemales= statistics.getInt("NumberOfFemales");
 
-                                mTextViewResult.append(getString(R.string.SchoolName)+" " +SchoolName + "\n" + getString(R.string.Address)+" " +Address + "\n"  + getString(R.string.SchoolLevel)+" "+SchoolLevel + "\n"  + getString(R.string.NumberOfMales)+" " +String.valueOf(NumberOfMales) + "\n " +  getString(R.string.NumberOfFemales)+" " +String.valueOf(NumberOfFemales) + "\n\n");
+                                mTextViewResult.append(getString(R.string.SchoolName)+" " +SchoolName + "\n" + getString(R.string.Address)+" " +Address + "\n"  + getString(R.string.SchoolLevel)+" "+SchoolLevel + "\n"  + getString(R.string.NumberOfMales)+" " +String.valueOf(NumberOfMales) + "\n" +  getString(R.string.NumberOfFemales)+" " +String.valueOf(NumberOfFemales) + "\n\n");
                             }
                         } catch (JSONException e) {
                             e.printStackTrace();
