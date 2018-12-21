@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.things_card: i = new Intent(this,ThingsToDo.class); startActivity(i); break;
             case R.id.stat_card: i = new Intent(this,School.class); startActivity(i); break;
             case R.id.crime_card: i = new Intent(this,CrimeStats.class); startActivity(i); break;
-            case R.id.credit_card: i = new Intent(this,CrimeStats.class); startActivity(i); break;
+            case R.id.credit_card: i = new Intent(this,About.class); startActivity(i); break;
             case R.id.road_card: i = new Intent(this,RoadAccidents.class); startActivity(i); break;
 
 

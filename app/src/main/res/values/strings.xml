@@ -23,14 +23,19 @@
     <string name="Construction_Heading">Construction</string>
     <string name="Construction_SubHeading">View whats getting built in Swords</string>
 
-    //Forum login
-    <string name="Swords_Forum_Heading">Swords Forum</string>
-    <string name="Swords_Forum_SubHeading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</string>
+    //About Page
+    <string name="Swords_Forum_Heading">Learn About Swords</string>
+    <string name="Swords_Forum_SubHeading">This application was set up, not only for the residents of Swords but for the new and propestive residents in the future. The Swords App features provide a one-stop-shop for any resident to plan their next meal out in the town, or perhaps look up their bus times.
+The Swords app also provides bespoke data that make for interesting reading for local residents or maybe prospective house buyers. Our data can allow for a prospective house buyer to view data about Swords in a concise and easy manner. Users of our app can few data about all the Schools in Swords, Such as the boy to girl ratios.
+They can view the Crime data in Swords which will allow prospective house buyers or local residents to make descison is Swords a safe place to bring up a family. Users of the Swords App can also view data on the number of road accidents that have happened within Swords.
+This data is pulled from an API with the data being pulled from a Government Data Portal known as data.gov.</string>
     <string name="LearnMore_Button">LEARN MORE</string>
     <string name="SignUp_Button">SIGN UP</string>
     <string name="Username">USERNAME</string>
     <string name="Password">PASSWORD</string>
     <string name="Login">LOGIN</string>
+    <string name="About">About</string>
+    <string name = "AboutSubHeading"> Learn what the app is about</string>
 
     //Dublin Bus Fragment
     <string name="DublinBus">THERE ARE NO DUBLIN BUS TIMETABLES AVAILABLE YET</string>

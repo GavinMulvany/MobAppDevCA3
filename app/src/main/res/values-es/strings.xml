@@ -56,4 +56,18 @@
     <string name="school_button">Ver las estadísticas más recientes de la escuela</string>
     <string name="SchoolTitle">Estadísticas de la escuela para espadas</string>
     <string name="crime_button">Ver las últimas estadísticas de delitos</string>
+    <string name="TheWard">The Ward Road Accidents:</string>
+    <string name="Village">Swords Village Road Accidents:</string>
+    <string name="Seatown">Accidentes de carretera en Seatown:</string>
+    <string name="Forrest">Accidentes de caminos forestales:</string>
+    <string name="Lissenhall">Accidentes de Lissenhall Road:</string>
+    <string name="Glasmore">Glasmore accidentes de carretera:</string>
+    <string name="Airport">Accidentes de tráfico en aeropuertos:</string>
+    <string name="RoadTitle">Estadística de Accidentes de Carretera para Espadas</string>
+    <string name="roadButton">Ver las últimas estadísticas de accidentes de tráfico</string>
+    <string name="RoadSubheading">Ver los últimos datos de Swords roads</string>
+    <string name="AboutSubHeading">Aprende de qué se trata la aplicación</string>
+    <string name="About">Acerca de</string>
+    <string name="RoadHeading">Estadísticas de accidentes de tráfico</string>
+    <string name="crime_header">Estadisticas delictivas para espadas</string>
 </resources>

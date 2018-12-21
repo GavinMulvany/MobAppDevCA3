@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    <string-array name="example_one">
+
+        <item>SWORDS</item>
+        <item>A Town away from Town</item>
+    </string-array>
+    
+</resources>

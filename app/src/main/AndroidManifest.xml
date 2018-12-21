@@ -35,6 +35,8 @@
         <activity android:name=".ThingsToDo" />
         <activity android:name=".School" />
         <activity android:name=".RoadAccidents" />
+        <activity android:name=".About"/>
+
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps"></activity>

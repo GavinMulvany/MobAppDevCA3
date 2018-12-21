@@ -56,4 +56,18 @@
     <string name="school_button">Letzte Schulstatistik anzeigen</string>
     <string name="BusHint">Geben Sie die Bushaltestelle Nr</string>
     <string name="BusButton">Überprüfen Sie die Zeiten</string>
+    <string name="TheWard">Die Ward Road Unfälle:</string>
+    <string name="About">Über</string>
+    <string name="AboutSubHeading">Erfahren Sie, worum es in der App geht</string>
+    <string name="Village">Straßenverkehrsunfälle in Schwertern</string>
+    <string name="Seatown">Seatown-Verkehrsunfälle:</string>
+    <string name="Forrest">Waldstraßenunfälle:</string>
+    <string name="Lissenhall">Lissenhall-Verkehrsunfälle:</string>
+    <string name="Glasmore">Glasmore Verkehrsunfälle:</string>
+    <string name="Airport">Unfälle am Flughafen:</string>
+    <string name="RoadTitle">Verkehrsunfallstatistik für Schwerter</string>
+    <string name="roadButton">Neueste Statistiken zu Verkehrsunfällen anzeigen</string>
+    <string name="RoadSubheading">Neueste Daten für die Straßen von Swords anzeigen</string>
+    <string name="RoadHeading">Statistiken zu Verkehrsunfällen</string>
+    <string name="crime_header">Kriminalstatistik für Schwerter</string>
 </resources>
