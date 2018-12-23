@@ -35,7 +35,7 @@
         <activity android:name=".ThingsToDo" />
         <activity android:name=".School" />
         <activity android:name=".RoadAccidents" />
-        <activity android:name=".About"/>
+        <activity android:name=".AboutPage"/>
 
         <activity android:name=".MainActivity" />
         <!--

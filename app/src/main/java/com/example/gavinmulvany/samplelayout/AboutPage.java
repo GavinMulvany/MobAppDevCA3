@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import com.tomer.fadingtextview.FadingTextView;
 
-public class About extends AppCompatActivity {
+public class AboutPage extends AppCompatActivity {
     private FadingTextView fadingTextView;
 
     @Override
